@@ -1,0 +1,31 @@
+# LazyVim/Neovim config .gitignore
+
+# Plugin, build, and test artifacts
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Neovim swap/backup/undo/session files (if ever present in config dir)
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.old
+*.un~
+*.undo
+*.backup
+*.session
+
+# Local customizations (optional, if you use them)
+local.lua
+*.local.lua
+
+# OS-specific
+.DS_Store
+Thumbs.db
