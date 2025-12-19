@@ -7,6 +7,7 @@ return {
           cmd = { "magus" },
           url = "https://github.com/scaryrawr/magus",
         },
+        codex = { cmd = { "codex" } },
       },
     },
   },
