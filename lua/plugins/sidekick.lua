@@ -8,6 +8,10 @@ return {
           url = "https://github.com/scaryrawr/magus",
         },
         codex = { cmd = { "codex" } },
+        pi = {
+          cmd = { "pi" },
+          url = "https://github.com/badlogic/pi-mono/",
+        },
       },
     },
   },
