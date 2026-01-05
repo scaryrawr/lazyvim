@@ -12,6 +12,10 @@ return {
           cmd = { "pi" },
           url = "https://github.com/badlogic/pi-mono/",
         },
+        vibe = {
+          cmd = { "vibe" },
+          url = "https://github.com/mistralai/mistral-vibe",
+        },
       },
     },
   },
