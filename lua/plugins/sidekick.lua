@@ -7,10 +7,6 @@ return {
           cmd = { "magus" },
           url = "https://github.com/scaryrawr/magus",
         },
-        copilotxresume = {
-          cmd = { "copilot", "--resume", "--disable-builtin-mcps" },
-          url = "https://github.com/github/copilot-cli",
-        },
         yopilot = {
           cmd = { "copilot", "--yolo", "--disable-builtin-mcps" },
           url = "https://github.com/github/copilot-cli",
@@ -25,10 +21,6 @@ return {
         },
         yonstruct = {
           cmd = { "construct", "--", "--yolo", "--disable-builtin-mcps" },
-          url = "https://github.com/scaryrawr/construct",
-        },
-        constructxresume = {
-          cmd = { "construct", "--", "--disable-builtin-mcps", "--resume" },
           url = "https://github.com/scaryrawr/construct",
         },
         copilot = {
