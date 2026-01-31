@@ -8,15 +8,15 @@ return {
           url = "https://github.com/scaryrawr/magus",
         },
         operator = {
-          cmd = { "construct", "operator", "--", "--disable-builtin-mcps" },
+          cmd = { "construct", "operator", "--" },
           url = "https://github.com/scaryrawr/construct",
         },
         construct = {
-          cmd = { "construct", "--", "--disable-builtin-mcps" },
+          cmd = { "construct", "--" },
           url = "https://github.com/scaryrawr/construct",
         },
         copilot = {
-          cmd = { "copilot", "--disable-builtin-mcps" },
+          cmd = { "copilot" },
           url = "https://github.com/github/copilot-cli",
         },
         codex = {
