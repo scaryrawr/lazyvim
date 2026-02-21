@@ -1,16 +1,20 @@
 return {
   {
-    "folke/tokyonight.nvim",
+    "catppuccin/nvim",
+    name = "catppuccin",
     opts = {
-      style = "night",
-      light_style = "day",
-      transparent = true,
+      flavour = "auto",
+      background = {
+        light = "latte",
+        dark = "mocha",
+      },
+      transparent_background = true,
     },
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "catppuccin",
     },
   },
 }
