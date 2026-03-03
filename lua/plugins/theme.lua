@@ -1,20 +1,26 @@
 return {
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    "ellisonleao/gruvbox.nvim",
+    name = "gruvbox",
     opts = {
-      flavour = "auto",
-      background = {
-        light = "latte",
-        dark = "mocha",
-      },
-      transparent_background = true,
+      terminal_colors = true,
+      transparent_mode = true,
     },
   },
   {
     "LazyVim/LazyVim",
+    init = function()
+      vim.api.nvim_create_user_command("GruvboxLight", function()
+        vim.o.background = "light"
+        vim.cmd.colorscheme("gruvbox")
+      end, { desc = "Use Gruvbox light mode" })
+      vim.api.nvim_create_user_command("GruvboxDark", function()
+        vim.o.background = "dark"
+        vim.cmd.colorscheme("gruvbox")
+      end, { desc = "Use Gruvbox dark mode" })
+    end,
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "gruvbox",
     },
   },
 }
