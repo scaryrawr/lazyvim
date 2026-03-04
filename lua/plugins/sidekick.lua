@@ -3,21 +3,13 @@ return {
   opts = {
     cli = {
       tools = {
-        magus = {
-          cmd = { "magus" },
-          url = "https://github.com/scaryrawr/magus",
-        },
-        operator = {
-          cmd = { "construct", "operator", "--" },
-          url = "https://github.com/scaryrawr/construct",
-        },
-        construct = {
-          cmd = { "construct", "--" },
-          url = "https://github.com/scaryrawr/construct",
-        },
         copilot = {
           cmd = { "copilot" },
           url = "https://github.com/github/copilot-cli",
+        },
+        claudio = {
+          cmd = { "claudio" },
+          url = "https://github.com/github/claudio",
         },
         codex = {
           cmd = { "codex" },
@@ -26,10 +18,6 @@ return {
         pi = {
           cmd = { "pi" },
           url = "https://github.com/badlogic/pi-mono/",
-        },
-        vibe = {
-          cmd = { "vibe" },
-          url = "https://github.com/mistralai/mistral-vibe",
         },
       },
     },
