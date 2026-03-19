@@ -1,26 +1,30 @@
 return {
   {
-    "folke/tokyonight.nvim",
+    "catppuccin/nvim",
+    name = "catppuccin",
     opts = {
-      style = "night",
-      light_style = "day",
-      transparent = true,
+      flavour = "auto",
+      background = {
+        light = "latte",
+        dark = "mocha",
+      },
+      transparent_background = true,
     },
   },
   {
     "LazyVim/LazyVim",
     init = function()
-      vim.api.nvim_create_user_command("TokyoDay", function()
+      vim.api.nvim_create_user_command("CatppuccinLight", function()
         vim.o.background = "light"
-        vim.cmd.colorscheme("tokyonight")
-      end, { desc = "Use Tokyo Night day (light) mode" })
-      vim.api.nvim_create_user_command("TokyoNight", function()
+        vim.cmd.colorscheme("catppuccin")
+      end, { desc = "Use Catppuccin light mode" })
+      vim.api.nvim_create_user_command("CatppuccinDark", function()
         vim.o.background = "dark"
-        vim.cmd.colorscheme("tokyonight")
-      end, { desc = "Use Tokyo Night night (dark) mode" })
+        vim.cmd.colorscheme("catppuccin")
+      end, { desc = "Use Catppuccin dark mode" })
     end,
     opts = {
-      colorscheme = "tokyonight",
+      colorscheme = "catppuccin",
     },
   },
 }
