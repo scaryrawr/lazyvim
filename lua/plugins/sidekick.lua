@@ -7,9 +7,13 @@ return {
           cmd = { "copilot" },
           url = "https://github.com/github/copilot-cli",
         },
+        copilito = {
+          cmd = { "copilito" },
+          url = "https://github.com/scaryrawr/copilito",
+        },
         claudio = {
           cmd = { "claudio" },
-          url = "https://github.com/github/claudio",
+          url = "https://github.com/scaryrawr/claudio",
         },
         codex = {
           cmd = { "codex" },
