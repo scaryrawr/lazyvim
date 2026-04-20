@@ -7,20 +7,17 @@ return {
           cmd = { "copilot" },
           url = "https://github.com/github/copilot-cli",
         },
-        copilito = {
-          cmd = { "copilito" },
-          url = "https://github.com/scaryrawr/copilito",
+        ocopilot = {
+          cmd = { "ollama", "launch", "copilot" },
         },
-        claudio = {
-          cmd = { "claudio" },
-          url = "https://github.com/scaryrawr/claudio",
+        oclaude = {
+          cmd = { "ollama", "launch", "claude" },
         },
-        codex = {
-          cmd = { "codex" },
-          url = "https://github.com/openai/codex",
+        ocodex = {
+          cmd = { "ollama", "launch", "codex" },
         },
         pi = {
-          cmd = { "pi" },
+          cmd = { "ollama", "launch", "pi" },
           url = "https://github.com/badlogic/pi-mono/",
         },
       },
