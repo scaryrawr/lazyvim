@@ -17,7 +17,7 @@ return {
           cmd = { "ollama", "launch", "codex" },
         },
         pi = {
-          cmd = { "ollama", "launch", "pi" },
+          cmd = { "pi" },
           url = "https://github.com/badlogic/pi-mono/",
         },
       },
