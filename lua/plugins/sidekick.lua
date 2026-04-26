@@ -7,11 +7,11 @@ return {
           cmd = { "copilot" },
           url = "https://github.com/github/copilot-cli",
         },
-        ocopilot = {
-          cmd = { "ollama", "launch", "copilot" },
+        copilito = {
+          cmd = { "copilito" },
         },
-        oclaude = {
-          cmd = { "ollama", "launch", "claude" },
+        claudio = {
+          cmd = { "claudio" },
         },
         ocodex = {
           cmd = { "ollama", "launch", "codex" },
