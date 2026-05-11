@@ -10,11 +10,11 @@ return {
         copilito = {
           cmd = { "copilito" },
         },
-        claudio = {
-          cmd = { "claudio" },
+        claude = {
+          cmd = { "omlx", "launch", "claude" },
         },
-        ocodex = {
-          cmd = { "ollama", "launch", "codex" },
+        codex = {
+          cmd = { "omlx", "launch", "codex" },
         },
         pi = {
           cmd = { "pi" },
