@@ -8,13 +8,16 @@ return {
           url = "https://github.com/github/copilot-cli",
         },
         copilito = {
-          cmd = { "copilito" },
+          cmd = { "olaunch", "copilot" },
         },
         claude = {
-          cmd = { "omlx", "launch", "claude" },
+          cmd = { "olaunch", "claude" },
         },
         codex = {
-          cmd = { "omlx", "launch", "codex" },
+          cmd = { "olaunch", "codex" },
+        },
+        hermes = {
+          cmd = { "olaunch", "hermes" },
         },
         pi = {
           cmd = { "pi" },
