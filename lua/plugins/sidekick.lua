@@ -23,6 +23,9 @@ return {
           cmd = { "pi" },
           url = "https://github.com/badlogic/pi-mono/",
         },
+        agency = {
+          cmd = { "agency", "copilot", "--mcp", "workiq", "--mcp", "m365-copilot" },
+        },
       },
     },
   },
